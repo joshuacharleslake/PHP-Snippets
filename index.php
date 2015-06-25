@@ -1,8 +1,8 @@
-<html>
-<head>
-	<title>GitHub</title>
-</head>
-<body>
-<h1>First Git</h1>
-</body>
-</html>
+<?php
+$colors = array('red', 'blue', 'green', 'yellow');
+
+foreach ($colors as $color) {
+    echo "Do you like $color?\n";
+}
+
+?>
